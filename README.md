@@ -1,5 +1,5 @@
 # Auto TL;DR (A Text Summarizer)
-====
+
 ## Description
 As its name suggests, Auto TL;DR automatically generates summaries for news articles. This program is built with Python, using spaCy.py as a natural language processing toolkit.
 
