@@ -10,26 +10,26 @@ As its name suggests, Auto TL;DR automatically generates summaries for news arti
 
 3. The following python packages are required in order to run the code:
 
-spacy
-numpy
-nltk
-sklearn
-scipy
+- spacy
+- numpy
+- nltk
+- sklearn
+- scipy
 
-Per spaCy's documentation, a larger version of the spaCy package needs to be downloaded in order for the word vectorization functionality to work. Said package can be downloaded by executing the following line in Terminal:
+  Per spaCy's documentation, a larger version of the spaCy package needs to be downloaded in order for the word vectorization functionality to work. Said package can be downloaded by executing the following line in Terminal:
 
-python -m spacy download en_core_web_lg
+  `python -m spacy download en_core_web_lg`
 
 4. To run the code:
-python auto-tldr.py [input file name]
+  `python auto-tldr.py [input file name]`
 
-For example:
-python auto-tldr.py nafta.txt
+  For example:
+  `python auto-tldr.py nafta.txt`
 
 5. The output files will be in this format:
-output[number].txt
+  `output[number].txt`
 
-For example:
-output3.txt, output4.txt, etc.
+  For example:
+  `output3.txt`, `output4.txt`, etc.
 
-The number indicates the number of paragraphs in the summary.
+  The number indicates the number of paragraphs in the summary.
