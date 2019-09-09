@@ -1,6 +1,9 @@
-README
+# Auto TL;DR (A Text Summarizer)
 ====
+## Description
+As its name suggests, Auto TL;DR automatically generates summaries for news articles. This program is built with Python, using spaCy.py as a natural language processing toolkit.
 
+## Running Instructions
 1. A list of stop words, in the format of a python file named stop_list.py, must be placed in the same directory of the source code. This file is the same one provided in the NLP class.
 
 2. The input text file must be placed in the same directory of the source code. The paragraphs of the input file must be separated by two new lines (\n\n). (See the provided sample input, nafta.txt, as an example)
